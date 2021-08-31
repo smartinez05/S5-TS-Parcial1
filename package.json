@@ -1,0 +1,11 @@
+{
+  "name": "s5-ts-parcial1",
+  "version": "1.0.0",
+  "description": "Parcial Corte 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
