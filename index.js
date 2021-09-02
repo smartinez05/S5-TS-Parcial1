@@ -13,7 +13,15 @@ app.get('/titulo', function (req, res) {
  
 app.get('/user', function (req, res) {
     res.json({
-        username: 'many' ,
+        username: 'many',
+        lastname: 'Quevedo',
+        number: 3114488452,
+        email: 'mquevedoji@uninpahu.edu.co',
+        direccion: 'callefalsa 123',
+        menssage: 'hola. como estas?',
+        dirección_IP :'172.35.224.225',
+        document: 47767958,
+        especialidad: 'endocrinologia',
     });
   });
 
