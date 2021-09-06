@@ -16,16 +16,14 @@ app.get('/Java', function (req, res) {
   
 }) 
 
-app.post('/Cpp', function (req, res) {
+app.post('/one', function (req, res) {
+  console.log(req.body);
+  res.send('funcion post numero uno')
+});
 
-  res.end('cout<<"Hola Mundo"')
-
-})
-
-app.post('/C', function (req, res) {
-
-    res.end('printf("Hola Mundo")')
-  
-  })
+app.post('/two', function (req, res) {
+  console.log(req.body);
+  res.send('funcion post numero dos')
+});
 
 app.listen(3000)
